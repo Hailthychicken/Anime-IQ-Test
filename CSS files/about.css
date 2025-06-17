@@ -1,0 +1,42 @@
+#about{
+  position: fixed;
+  width: 60vw;
+  height: 60vh;
+  border: solid black;
+  top: 20vh;
+  right: 5vw;
+  border-radius: 20px;
+  color: black;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:burlywood;
+
+}
+
+.thank_you{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.thank_you h1{
+  font-size: 5vw;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.thank_you p{
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.itachigifbox{position: relative;
+  width: 100%;
+  height: 16vh;
+}
+.itachigifbox img{
+height: 100%;
+}

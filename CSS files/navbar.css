@@ -1,0 +1,50 @@
+
+.navbar{
+  width: 15vw;
+  height: 60vh;
+  top: 20vh;
+  left: 10vh;
+  position: fixed;
+}
+.navbar a{
+  width: 100%;
+  height: 25%;
+  border: solid blue;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  opacity: 0;
+  pointer-events: none;
+  text-decoration: none;
+  color: blue;
+}
+
+.home-nav{
+  animation: nav-bar-start 1s  ease forwards;
+}
+.quiz-nav{
+  animation: nav-bar-start 1s 1s ease forwards;
+}
+.leaderboard-nav{
+  animation: nav-bar-start 1s 2s ease forwards;
+}
+.about-nav{
+  animation: nav-bar-start 1s 3s ease forwards;
+}
+
+
+@keyframes nav-bar-start {
+  0%{
+transform: translateX(-20vw);
+opacity: 0;
+pointer-events: none;
+  }
+  100%{
+transform: translateX(0vw);
+opacity: 1;
+pointer-events: all;
+  }
+}

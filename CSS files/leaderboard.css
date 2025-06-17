@@ -1,0 +1,30 @@
+#leaderboard{
+  position: fixed;
+  width: 40vw;
+  height: 70vh;
+  border: solid black;
+  background-color: rgb(135, 157, 255);
+  top: 15vh;
+  right: 15vw;
+  border-radius: 20px;
+  color: black;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#leaderboard h1{
+  margin-bottom: 5vh;
+}
+
+.leaderboardBox{
+  width: 100%;
+}
+
+.high-score{
+  font-size: large;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: 2vh;
+}

@@ -1,0 +1,100 @@
+[ {
+    "question": "What is the name of Naruto\"s father?",
+    "choice1": "Obito",
+    "choice2": "Madara",
+    "choice3": "Minato",
+    "choice4": "Nagato",
+    "answer":3
+  },
+  {
+    "question": "What is the highest selling shonen manga?",
+   "choice1": "Naruto",
+    "choice2": "Dragon ball",
+    "choice3": "Death note",
+   "choice4": "One piece",
+    "answer":4
+  },
+    {
+    "question": "Who is the Author of Bleach?",
+    "choice1": "Masashi Kishimoto",
+    "choice2": "Tite Kubo",
+    "choice3": "Akira Toriyama",
+    "choice4": "Echira Oda",
+    "answer":2
+  },
+  {
+    "question": "Which of these is a power system in One Piece?",
+   "choice1": "Chakra",
+    "choice2": "Haki",
+    "choice3": "Ki",
+   "choice4": "Stand",
+    "answer":2
+  },
+  {
+    "question": "What affinity for nen does Gon have in HunterxHunter?",
+   "choice1": "Enhancer",
+    "choice2": "Specialist",
+    "choice3": "Transmuter",
+   "choice4": "Manipulater",
+    "answer":1
+  },
+  {
+    "question": "What jutsu did naruto steal from a scroll",
+   "choice1": "Rasengan",
+    "choice2": "Fire ball justsu",
+    "choice3": "Summoning jutsu",
+   "choice4": "Multi-Shadow clone jutsu",
+    "answer":4
+  },
+  {
+    "question": "What is the name of Luffy's father",
+   "choice1": "Monkey D. Garp",
+    "choice2": "Monkey D. Duffy",
+    "choice3": "Monkey D. Dragon",
+   "choice4": "Monkey D. Tiger",
+    "answer":3
+  },
+  {
+    "question": "Who is known as the father of shonen manga?",
+   "choice1": "Naruto",
+    "choice2": "Dragon ball",
+    "choice3": "Bleach",
+   "choice4": "One piece",
+    "answer":2
+  },{
+    "question": "'Bankai!' is a phrase used in what series",
+   "choice1": "Dandadan",
+    "choice2": "My hero academia",
+    "choice3": "Jujutsu kaisen",
+   "choice4": "Bleach",
+    "answer":4
+  },{
+    "question": "'Kamehameha' is a phrase used in which series?",
+   "choice1": "Naruto",
+    "choice2": "Dragon ball",
+    "choice3": "Death note",
+   "choice4": "One piece",
+    "answer":2
+  },{
+    "question": "What is the name of Gohan's daughter",
+   "choice1": "Fork",
+    "choice2": "Pan",
+    "choice3": "Spoon",
+   "choice4": "Plate",
+    "answer":2
+  },{
+    "question": "What is the name of the straw hat's first ship?",
+   "choice1": "Going Merry",
+    "choice2": "Long Sail darling",
+    "choice3": "Straw Away",
+   "choice4": "Hatty Patty",
+    "answer":1
+  },{
+    "question": "The name of the swords used by shinagami in bleach is?",
+   "choice1": "Hope sword",
+    "choice2": "Zaraki",
+    "choice3": "Soul blade",
+   "choice4": "Zanpakuto",
+    "answer":4
+  }
+]

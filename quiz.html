@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="CSS files/Quiz.css">
+   <link rel="stylesheet" href="CSS files/navbar.css">
+   <link rel="stylesheet" href="CSS files/body.css">
+  <link rel="stylesheet" href="CSS files/content.css">
+  <title>Document</title>
+</head>
+<body> 
+  <div id="main-body">
+    <img src="anime_wallpapers/Naruto_wallpaper.jpg" alt="" id="bg-wallpaper">
+  <nav class="navbar">
+    <a href="home.html"  class="home-nav"><div>Home</div></a>
+    <a href="quiz.html"  class="quiz-nav"><div>Quiz</div></a>
+    <a href="leaderboard.html" class="leaderboard-nav"><div>Leaderboard</div></a>
+    <a href="about.html" class="about-nav"><div>About</div></a>
+  </nav>
+</div>
+
+
+   <div class="content-box">
+    <section id="Quiz">
+      <div id="levelselectBox" class="levelselectbox">
+        <h1>Select Level</h1>
+        <div class="quizbtncontain">
+          <button id="easylevel" >Easy</button>
+        <button id="mediumlevel" >Medium</button>
+        <button id="hardlevel" >Hard</button>
+      </div>
+        
+      </div>
+
+      <div class=" loadingbox notactive" id="loadingBox">
+        <img src="anime_gif/naruto run.gif" alt="">
+      </div>
+        
+      <div class="Quiz-box notactive" id="quizStartDisplay"> 
+        <div id="hud">
+            <div id="question-hud">
+              <h1 id="question-hudText" class="questionhudtext"></h1> 
+            </div>
+              
+            <div id="score-hud">
+              <h1 id="score-hudValue"></h1>
+            </div>
+        </div>
+        <h1 id="Quiz-question"></h1>
+
+        <div class="choices">
+          <div class="choice-container">
+          <p class="choice-prefix" >A</p>
+          <p class="choice-answer" data-number="1"></p>
+        </div>
+
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-answer" data-number="2"></p>
+        </div>
+
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-answer" data-number="3"></p>
+        </div>
+
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-answer" data-number="4"></p>
+        </div>
+        </div>
+        
+      </div>
+      <div class="quizEnd notactive" id="quizEndDisplay">
+          <h1>SCORE:</h1>
+          <h2 id="quizendScore"></h2>
+          <input type="text" name="username" id="username" placeholder="Enter: username">
+          <button type="submit" class="btn" id="saveScorebtn" disabled>Save</button>
+
+        </div>
+      </section>
+
+    </div>
+
+    <script src="JS files/Quiz.js"></script>
+    <script src="JS files/AnimeIQ.js"></script>
+  
+</body>
+</html>

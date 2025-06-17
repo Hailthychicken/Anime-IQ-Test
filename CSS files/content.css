@@ -1,0 +1,25 @@
+.content-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 100vw;
+ height: 100vh;
+}
+
+.Home-box{
+  position: fixed;
+  width: 500px;
+  background-color: black;
+}
+.Others-box{
+  position: fixed;
+  width: 500px;
+  background-color: yellow;
+}
+.Games-box{
+  position: fixed;
+  width: 500px;
+  background-color: green;
+}
+
+

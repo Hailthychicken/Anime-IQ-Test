@@ -1,0 +1,52 @@
+#home{
+  position: fixed;
+  width: 60vw;
+  height: 60vh;
+  border: solid black;
+  top: 20vh;
+  right: 5vw;
+  border-radius: 20px;
+  color: black;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+}
+
+.luffygifBox{
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content:center;
+  align-items:flex-end;
+}
+
+#luffyGif{
+  height: 30%;
+}
+
+#animeFactsBox{
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+  display: flex;
+  border: solid black;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#animeFactsBox h1{
+margin-bottom: 10px;
+text-decoration: underline;
+font-size: 3vw;
+}
+#animeFacts{
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  flex-shrink: 0;
+  font-size: 1.5vw;
+}
