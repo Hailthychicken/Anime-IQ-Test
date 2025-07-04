@@ -11,16 +11,19 @@
   height: 25%;
   border: solid blue;
   background-color: yellow;
+  margin-bottom: 1.2vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5px;
   border-radius: 30px;
   opacity: 0;
   pointer-events: none;
   text-decoration: none;
   color: blue;
+  font-size: 2vw;
+  font-weight: bold;
 }
+
 
 .home-nav{
   animation: nav-bar-start 1s  ease forwards;

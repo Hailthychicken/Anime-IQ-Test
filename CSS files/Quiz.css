@@ -44,7 +44,7 @@
   width: 30%;
   height: 100%;
   cursor: pointer;
-  font-size: xx-large;
+  font-size: 100%;
   background-color: burlywood;
 }
 
@@ -86,10 +86,11 @@ justify-content: center;
 border: solid rgb(0, 47, 255);
 background-color: white;
 border-radius: 50%;
-width: 8%;
+width: 5vw;
+height: 5vw;
 }
 .questionhudtext{
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 #score-hud{
 display: flex;
@@ -98,10 +99,11 @@ justify-content: center;
 border: solid rgb(0, 47, 255);
 background-color: white;
 border-radius: 50%;
-width: 8%;
+width: 5vw;
+height: 5vw;
 }
 #score-hudValue{
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 #Quiz-question{
@@ -140,6 +142,7 @@ font-size: 1.2vw;
 .choice-answer{
   padding: 15px;
   width: 100%;
+  
 }
 
 .correctanswer{
@@ -192,4 +195,18 @@ margin-bottom: 8px;
 }
 .notactive{
   display: none;
+}
+
+@media screen and (max-width:1000px) {
+  .choice-prefix{
+  padding: 15px;
+  background-color: rgb(68, 127, 255);
+  font-size: 1.8vw;
+  
+}
+.choice-answer{
+  padding: 15px;
+  width: 100%;
+  font-size: 1.7vw;
+}
 }
